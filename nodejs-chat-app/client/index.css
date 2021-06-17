@@ -1,0 +1,84 @@
+body{
+    background-color: #A3E4D7;
+}
+.mainContainer{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin: auto;
+    width: 50%;
+    
+}
+
+.navbar{
+    background-color: #48C9B0 ;
+    justify-content: center;
+    margin-top: 40px;
+}
+.navTitle{
+    color: white;
+}
+
+.container{
+    height: 70vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.container::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.message{
+    /* margin-top: 2px; */
+    margin-bottom: 15px;
+    background-color:  white;
+    border: 1px solid #CACFD2;
+    padding: 5px;
+    border-radius: 3px;
+    width: 24%;
+    color: #2C3E50 ;
+
+}
+
+.receive-message{
+    float: left;
+    clear: both;
+
+}
+
+.send-message{
+    float: right;
+    clear: both;
+}
+
+.user-join{
+    clear: both;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 10px;
+    border: 1px solid #CACFD2;
+    background-color: skyblue ;
+    width: 20%;
+    text-align: center;
+    padding: 3px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.user-left{
+    clear: both;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 10px;
+    border: 1px solid #CACFD2;
+    background-color:#E74C3C ;
+    width: 20%;
+    text-align: center;
+    padding: 3px;
+    color: white;
+    border-radius: 5px;   
+}
