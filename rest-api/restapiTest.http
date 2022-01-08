@@ -1,0 +1,28 @@
+GET http://localhost:3000/articles
+
+
+###
+
+POST http://localhost:3000/articles/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "title" : "title 1",
+    "description" : "desc 2"
+   
+}
+
+
+###
+PATCH  http://localhost:3000/articles/60ce406a245b0b12242141fb  HTTP/1.1
+Content-Type: application/json
+
+{
+    "title" : "another title update",
+    "description" : "another updated desc 2"
+   
+}
+
+###
+
+DELETE http://localhost:3000/articles/60cf7c6ac0a8db2c5c30ec41 HTTP/1.1

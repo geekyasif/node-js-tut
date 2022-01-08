@@ -29,10 +29,7 @@ const append = (message, position) => {
 
     }
 
-    // if (userInfo == 'user-join'){
-
-
-    // }
+ 
 }
 
 
@@ -44,7 +41,8 @@ socket.on('joined-the-chat', (name) => {
 })
 
 // user left the chat 
-socket.on('left-the-chat', name => {
+socket.on('disconnet', name => {
+    console.log('user left the chat')
     append(`${name} : left the chat`, 'user-left')
 })
 

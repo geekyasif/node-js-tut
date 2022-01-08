@@ -24,8 +24,8 @@ io.on('connection', socket => {
 
 
     // when user disconnect or left the chat 
-    socket.on('user-left', name => {
-        socket.broadcast.emit('left-the-chat', name)
+    socket.on('disconnet', name => {
+        io.emit('left-the-chat', name)
         delete users[user.id]
         console.log("user is disconnected")
     });
